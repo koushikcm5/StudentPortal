@@ -1,0 +1,74 @@
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+  }
+  
+  .registration-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555555;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"],
+  .input-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input[type="text"]:focus,
+  .input-group input[type="email"]:focus,
+  .input-group input[type="password"]:focus {
+    border-color: #007bff;
+  }
+  
+  .input-group select {
+    height: 40px;
+    background-color: #ffffff;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
